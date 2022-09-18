@@ -1,0 +1,110 @@
+.container{
+    margin:0px;
+
+    
+}
+.mid{
+    text-align: center;
+}
+body{
+    margin:0px;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 40px;
+    
+}
+.about{
+   position:absolute;
+   left:40rem;
+   top:20rem;
+
+}
+.a1{
+    text-align: center;
+ display: inline-block;
+}
+.aa1{
+  border-left:5rem;
+}
+.a2{
+    display: inline-block;
+}
+.bot{
+    text-align: center;
+}
+footer{
+    
+    padding: 5%;
+    color:white;
+ background-color: black;
+}
+.logo{
+    
+    left:10rem;
+}
+svg{
+    position: relative;
+    left:50%;
+    bottom:2rem;
+    background-color: green;
+}
+.first{
+    text-shadow: 100rem;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } 
+  .carousel-cell {
+    width: 66%;
+    height: 400px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+.flickity-page-dots {
+  bottom: 0px;
+}
+
+
+
+
